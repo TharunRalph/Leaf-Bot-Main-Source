@@ -1,0 +1,62 @@
+{
+    "startLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "shardLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "errorLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "dmLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "voiceLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "serverLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "serverLogs2": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "commandLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "consoleLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "warnLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "voiceErrorLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "creditLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "evalLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "interactionLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    },
+    "bugReportLogs": {
+        "id": "1065135969977769994",
+        "token": "-sigdyk24Mz3JNnDFFhXS5uG5E42xMrbEUWsaxlSZ-f9upo2j12XYrvEeYXXbYWp-czX"
+    }
+}
