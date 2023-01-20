@@ -28,15 +28,15 @@ module.exports = async (client) => {
     } else {
       statuttext = [
         `/help`,
-        `With ${totalGuilds} Servers`,
-        `https://shorturl.at/iOU69`,
-        `350+ Commands`,
+        `${totalGuilds} Servers`,
+        `https://is.gd/leafbotbyralph`,
+        `300+ Commands`,
         `Version ${require(`${process.cwd()}/package.json`).version}`
       ];
     }
     const randomText = statuttext[Math.floor(Math.random() * statuttext.length)];
     client.user.setPresence({ activities: [{ name: randomText, type: Discord.ActivityType.Listening }], status: 'online' });
-  }, 50000)
+  }, 20000)
 
   client.player.init(client.user.id);
 }

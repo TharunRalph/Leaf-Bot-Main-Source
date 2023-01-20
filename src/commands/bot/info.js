@@ -26,7 +26,7 @@ module.exports = async (client, interaction, args) => {
                 fields: [
                {
                     name: "ℹ️ | Information",
-                    value: `I Am A Bot With More Then 350+ Commands Which Is To Make A Whole Server With One Bot!`,
+                    value: `I Am A Bot With More Then 300+ Commands Which Is To Make A Whole Server With One Bot!`,
                     inline: false,
                 },
                 {

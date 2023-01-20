@@ -4,7 +4,7 @@ require('dotenv').config('./.env');
 const axios = require('axios');
 // Check if is up to date
 const { version } = require('.././package.json');
-axios.get('https://api.github.com/repos/THamizha9350/clowddiscord/releases/latest').then(res => {
+axios.get('https://api.github.com/repos/TharunRalph/Leaf-Bot-Main-Source/releases/7a3b55e').then(res => {
     if (res.data.tag_name !== version) {
         console.log(chalk.red.bgYellow(`Your bot is not up to date! Please update to the latest version!`, version + ' -> ' + res.data.tag_name));
     }
