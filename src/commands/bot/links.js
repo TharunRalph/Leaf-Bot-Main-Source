@@ -5,18 +5,18 @@ module.exports = async (client, interaction, args) => {
         .addComponents(
             new Discord.StringSelectMenuBuilder()
                 .setCustomId('Bot-linkspanel')
-                .setPlaceholder('❌┆Nothing selected')
+                .setPlaceholder('Nothing selected')
                 .addOptions([
                     {
                         label: `Support server`,
                         description: `Join the suppport server`,
-                        emoji: "❓",
+                        emoji: "<:que:1065895762682187906>",
                         value: "support-linkspanel",
                     },
                     {
                         label: `Invite Bot`,
                         description: `Invite Bot to your server`,
-                        emoji: "📨",
+                        emoji: "<:env:1065928694805303356>",
                         value: "invite-linkspanel",
                     },
                     {
@@ -37,7 +37,7 @@ module.exports = async (client, interaction, args) => {
     client.embed({
         title: `🔗・Links`,
         desc: `Get access to all Bot links! Choose the link you need in the menu below`,
-        image: "https://share.creavite.co/zqLgHVmIUsmDqFJM.gif",
+        image: "https://share.creavite.co/WYMlziHH45dOwEb3.gif",
         components: [row],
         type: 'editreply'
     }, interaction)

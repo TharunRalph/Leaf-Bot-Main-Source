@@ -13,7 +13,7 @@ module.exports = async (client, interaction, args) => {
 
             new Discord.ButtonBuilder()
                 .setCustomId('family_stop')
-                .setEmoji('❌')
+                .setEmoji('<:kross:1065897195406110750>')
                 .setStyle(Discord.ButtonStyle.Danger),
         );
 

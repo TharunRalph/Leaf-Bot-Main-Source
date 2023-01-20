@@ -15,7 +15,7 @@ module.exports = async (client, interaction, args) => {
 
         const lb = rawLeaderboard.map(e => `**${rawLeaderboard.findIndex(i => i.Guild === interaction.guild.id && i.User === e.User) + 1}** | <@!${e.User}> - ${client.emotes.economy.coins} \`$${e.Money}\``);
 
-        await client.createLeaderboard(`🪙・Money - ${interaction.guild.name}`, lb, interaction);
+        await client.createLeaderboard(`<:moni:1065921471374966865>・Money - ${interaction.guild.name}`, lb, interaction);
     }
     else if (type == "bank") {
         const rawLeaderboard = await Schema.find({ Guild: interaction.guild.id }).sort(([['Bank', 'descending']]));

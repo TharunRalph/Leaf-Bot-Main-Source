@@ -373,23 +373,23 @@ module.exports = async (client, message) => {
         {
           title: "Thank You For Inviting Me!",
           desc: `Start With </help:1063488530338304048>`,
-          image: "https://share.creavite.co/zqLgHVmIUsmDqFJM.gif",
+          image: "https://share.creavite.co/WYMlziHH45dOwEb3.gif",
           fields: [
             {
-              name: "📨┆Invite me",
+              name: "<:env:1065928694805303356>┆Invite me",
               value: `Invite Bot in your own server! [Invite Me](${client.config.discord.botInvite})`,
             },
             {
-              name: "❓┇I don't see any slash commands",
+              name: "<:que:1065895762682187906>┇I don't see any slash commands",
               value:
                 "The bot may not have permissions for this. Open the invite link again and select your server. The bot then gets the correct permissions",
             },
             {
-              name: "❓┆Need support?",
+              name: "<:que:1065895762682187906>┆Need support?",
               value: `Want Support Dm <@981063126604730388> Or Join [Support Server](${client.config.discord.serverInvite})!`,
             },
             {
-              name: "🐞┆Found a bug?",
+              name: "<:bugs:1065897707937464331>┆Found a bug?",
               value: `Report All Bugs Via: </report:1063488530690609238>`,
             },
           ],

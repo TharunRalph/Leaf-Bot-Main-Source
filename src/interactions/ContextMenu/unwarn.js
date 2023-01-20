@@ -47,7 +47,7 @@ module.exports = {
                 });
                 // Create a new message with the menu
                 client.embed({
-                    title: `🔨・Unwarn`,
+                    title: `<:hamtoo:1065922792182255628>・Unwarn`,
                     desc: `Select a warning to remove from **${member.user.tag}**`,
                     components: [new Discord.ActionRowBuilder().addComponents(menu)],
                     type: 'ephemeraledit'
@@ -80,7 +80,7 @@ module.exports = {
                         }, interaction);
                         client.emit('warnRemove', member, interaction.user)
                         client.embed({
-                            title: `🔨・Unwarn`,
+                            title: `<:hamtoo:1065922792182255628>・Unwarn`,
                             desc: `You've been unwarned in **${interaction.guild.name}**`,
                             fields: [
                                 {

@@ -3,22 +3,22 @@ const Discord = require('discord.js');
 module.exports = async (client) => {
     const fields = [
         {
-            name: `🚫┆AFK`,
+            name: `<:noentry:1065941736603537518>┆AFK`,
             value: `</afk help:1063488530157932696>`,
             inline: true
         },
         {
-            name: `📣┆Announcement`,
+            name: `<:announce:1065916849486823445>┆Announcement`,
             value: `</announcement help:1063488530157932697>`,
             inline: true
         },
         {
-            name: `👮‍♂️┆Auto mod`,
+            name: `<:mod:1065940560411627520>┆Auto mod`,
             value: `</automod help:1063488530157932698>`,
             inline: true
         },
         {
-            name: `⚙️┆Auto setup`,
+            name: `<:gear_g:1065914595144892546>┆Auto setup`,
             value: `</autosetup help:1063488530157932699>`,
             inline: true
         },
@@ -28,7 +28,7 @@ module.exports = async (client) => {
             inline: true
         },
         {
-            name: `🤖┆Bot`,
+            name: `<:bot:1065939763024101416>┆Bot`,
             value: `</bot help:1063488530157932701>`,
             inline: true
         },
@@ -38,17 +38,17 @@ module.exports = async (client) => {
             inline: true
         },
         {
-            name: `⚙┆Configuration`,
+            name: `<:gear_g:1065914595144892546>┆Configuration`,
             value: `</config help:1063488530157932704>`,
             inline: true
         },
         {
-            name: `💻┆Custom commands`,
+            name: `<:mob:1065939198441435167>┆Custom commands`,
             value: `</custom-commands help:1063488530157932703>`,
             inline: true
         },
         {
-            name: `💰┆Economy`,
+            name: `<:mbag:1065919157490683904>┆Economy`,
             value: `</economy help:1063488530338304041>`,
             inline: true
         },
@@ -68,12 +68,12 @@ module.exports = async (client) => {
             inline: true
         },
         {
-            name: `🎉┆Giveaway`,
+            name: `<:giveaway:1065918316138483722>┆Giveaway`,
             value: `</giveaway help:1063488530338304046>`,
             inline: true
         },
         {
-            name: `⚙️┆Guild settings`,
+            name: `<:gear_g:1065914595144892546>┆Guild settings`,
             value: `</guild help:1063488530338304047>`,
             inline: true
         },
@@ -83,7 +83,7 @@ module.exports = async (client) => {
             inline: true
         },
         {
-            name: `📨┆Invites`,
+            name: `<:env:1065928694805303356>┆Invites`,
             value: `</invites help:1063488530522841090>`,
             inline: true
         },
@@ -103,7 +103,7 @@ module.exports = async (client) => {
             inline: true
         },
         {
-            name: `🎵┆Music`,
+            name: `<:mus:1065931575553957948>┆Music`,
             value: `</music help:1063488530522841095>`,
             inline: true
         },
@@ -128,27 +128,27 @@ module.exports = async (client) => {
             inline: true
         },
         {
-            name: `⚙️┆Setup`,
+            name: `<:gear_g:1065914595144892546>┆Setup`,
             value: `</setup help:1063488530690609241>`,
             inline: true
         },
         {
-            name: `🤝┆Thanks`,
+            name: `<:hadske:1065927841465770084>┆Thanks`,
             value: `</thanks help:1063488530690609245>`,
             inline: true
         },
         {
-            name: `🎫┆Tickets`,
+            name: `<:ticket_green:1065923338326790145>┆Tickets`,
             value: `</tickets help:1063488530690609246>`,
             inline: true
         },
         {
-            name: `⚒️┆Tools`,
+            name: `<:hamtoo:1065922792182255628>┆Tools`,
             value: `</tools help:1063488530862592000>`,
             inline: true
         },
         {
-            name: `🔊┆Voice`,
+            name: `<:sound_green:1065923813268799498>┆Voice`,
             value: `</voice help:1063488530862592001>`,
             inline: true
         },
@@ -166,16 +166,17 @@ module.exports = async (client) => {
                     .addComponents(
                         new Discord.ButtonBuilder()
                             .setCustomId('helpPrev')
-                            .setEmoji('⬅️')
+                            .setEmoji('<:pre:1065935660575367168>')
                             .setStyle(Discord.ButtonStyle.Secondary),
 
                         new Discord.ButtonBuilder()
                             .setCustomId('helpNext')
-                            .setEmoji('➡️')
+                            .setEmoji('<:nxt:1065935706029047830>')
                             .setStyle(Discord.ButtonStyle.Secondary),
 
                         new Discord.ButtonBuilder()
                             .setLabel("Invite")
+                            .setEmoji("<:env:1065928694805303356>")
                             .setURL(client.config.discord.botInvite)
                             .setStyle(Discord.ButtonStyle.Link),
 
@@ -189,39 +190,39 @@ module.exports = async (client) => {
                     .addComponents(
                         new Discord.StringSelectMenuBuilder()
                             .setCustomId('Bot-helppanel')
-                            .setPlaceholder('❌┆Nothing selected')
+                            .setPlaceholder('Nothing selected')
                             .addOptions([
                                 {
                                     label: `Commands`,
                                     description: `Show the commands of Bot!`,
-                                    emoji: "💻",
+                                    emoji: "<:mob:1065939198441435167>",
                                     value: "commands-Bothelp",
                                 },
                                 {
                                     label: `Invite`,
                                     description: `Invite Bot to your server`,
-                                    emoji: "📨",
+                                    emoji: "<:env:1065928694805303356>",
                                     value: "invite-Bothelp",
                                 },
                                 {
                                     label: `Support server`,
                                     description: `Join the suppport server`,
-                                    emoji: "❓",
+                                    emoji: "<:que:1065895762682187906>",
                                     value: "support-Bothelp",
                                 },
                                 {
                                     label: `Changelogs`,
                                     description: `Show the bot changelogs`,
-                                    emoji: "📃",
+                                    emoji: "<:papers:1065947500483182652>",
                                     value: "changelogs-Bothelp",
                                 },
                             ]),
                     );
 
                 client.embed({
-                    title: `❓・Help panel`,
+                    title: `<:que:1065895762682187906>・Help panel`,
                     desc: `View all command categories in the bot here! \n\n[Website](https://shorturl.at/iOU69) | [Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/798144456528363550/vote)`,
-                    image: "https://share.creavite.co/zqLgHVmIUsmDqFJM.gif",
+                    image: "https://share.creavite.co/WYMlziHH45dOwEb3.gif",
                     fields: fields.slice(0, 24),
                     components: [row2, row],
                     type: 'edit'
@@ -234,7 +235,7 @@ module.exports = async (client) => {
                         if (i.customId == "helpNext") {
                             if (page == 1) {
                                 client.embed({
-                                    title: `❓・Help panel`,
+                                    title: `<:que:1065895762682187906>・Help panel`,
                                     desc: `View all command categories in the bot here! \n\n[Website](https://shorturl.at/iOU69) | [Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/798144456528363550/vote)`,
                                     fields: fields.slice(25, 49),
                                     components: [row2, row],
@@ -247,7 +248,7 @@ module.exports = async (client) => {
                         else if (i.customId == "helpPrev") {
                             if (page == 2) {
                                 client.embed({
-                                    title: `❓・Help panel`,
+                                    title: `<:que:1065895762682187906>・Help panel`,
                                     desc: `View all command categories in the bot here! \n\n[Website](https://shorturl.at/iOU69) | [Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/798144456528363550/vote)`,
                                     fields: fields.slice(0, 24),
                                     components: [row2, row],

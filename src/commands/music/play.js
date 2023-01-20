@@ -166,7 +166,7 @@ module.exports = async (client, interaction, args) => {
                 desc: results,
                 fields: [
                     {
-                        name: `❓┆Cancel search?`,
+                        name: `<:que:1065895762682187906>┆Cancel search?`,
                         value: `Press \`cancel\` to stop the search`,
                         inline: true
                     }

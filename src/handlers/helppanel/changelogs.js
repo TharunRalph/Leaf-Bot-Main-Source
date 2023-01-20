@@ -12,24 +12,24 @@ module.exports = async (client) => {
                     .addComponents(
                         new Discord.StringSelectMenuBuilder()
                             .setCustomId('Bot-helppanel')
-                            .setPlaceholder('❌┆Nothing selected')
+                            .setPlaceholder('Nothing selected')
                             .addOptions([
                                 {
                                     label: `Commands`,
                                     description: `Show the commands of Bot!`,
-                                    emoji: "💻",
+                                    emoji: "<:mob:1065939198441435167>",
                                     value: "commands-Bothelp",
                                 },
                                 {
                                     label: `Invite`,
                                     description: `Invite Bot to your server`,
-                                    emoji: "📨",
+                                    emoji: "<:env:1065928694805303356>",
                                     value: "invite-Bothelp",
                                 },
                                 {
                                     label: `Support server`,
                                     description: `Join the suppport server`,
-                                    emoji: "❓",
+                                    emoji: "<:que:1065895762682187906>",
                                     value: "support-Bothelp",
                                 },
                                 {
@@ -47,7 +47,7 @@ module.exports = async (client) => {
                     thumbnail: client.user.avatarURL({ size: 1024 }),
                     fields: [
             	        {
-                            name: "📢┆Alert!",
+                            name: "<:announce:1065916849486823445>┆Alert!",
                             value: 'This is the changelogs of the bot, here you can see the changes that have been made to the bot.',
                             inline: false,
                         },

@@ -26,10 +26,10 @@ module.exports = async (client, interaction, args) => {
   }
 
   const flags = {
-    ActiveDeveloper: "👨‍💻・Active Developer",
-    BugHunterLevel1: "🐛・Discord Bug Hunter",
-    BugHunterLevel2: "🐛・Discord Bug Hunter",
-    CertifiedModerator: "👮‍♂️・Certified Moderator",
+    ActiveDeveloper: "👨‍<:mob:1065939198441435167>・Active Developer",
+    BugHunterLevel1: "<:bugs:1065897707937464331>・Discord Bug Hunter",
+    BugHunterLevel2: "<:bugs:1065897707937464331>・Discord Bug Hunter",
+    CertifiedModerator: "<:mod:1065940560411627520>・Certified Moderator",
     HypeSquadOnlineHouse1: "🏠・House Bravery Member",
     HypeSquadOnlineHouse2: "🏠・House Brilliance Member",
     HypeSquadOnlineHouse3: "🏠・House Balance Member",
@@ -40,8 +40,8 @@ module.exports = async (client, interaction, args) => {
     Spammer: "🔒・Spammer", // Not sure if this one works
     Staff: "👨‍💼・Discord Staff",
     TeamPseudoUser: "👨‍💼・Discord Team",
-    VerifiedBot: "🤖・Verified Bot",
-    VerifiedDeveloper: "👨‍💻・(early)Verified Bot Developer",
+    VerifiedBot: "<:bot:1065939763024101416>・Verified Bot",
+    VerifiedDeveloper: "👨‍<:mob:1065939198441435167>・(early)Verified Bot Developer",
   }
 
   let Badges = await model.findOne({ User: member.user.id });

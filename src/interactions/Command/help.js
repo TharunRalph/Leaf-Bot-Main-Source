@@ -21,24 +21,24 @@ module.exports = {
             .addComponents(
                 new Discord.StringSelectMenuBuilder()
                     .setCustomId('Bot-helppanel')
-                    .setPlaceholder('❌┆Nothing selected')
+                    .setPlaceholder('Nothing selected')
                     .addOptions([
                         {
                             label: `Commands`,
                             description: `Show the commands of Bot!`,
-                            emoji: "💻",
+                            emoji: "<:mob:1065939198441435167>",
                             value: "commands-Bothelp",
                         },
                         {
                             label: `Invite`,
                             description: `Invite Bot to your server`,
-                            emoji: "📨",
+                            emoji: "<:env:1065928694805303356>",
                             value: "invite-Bothelp",
                         },
                         {
                             label: `Support server`,
                             description: `Join the suppport server`,
-                            emoji: "❓",
+                            emoji: "<:que:1065895762682187906>",
                             value: "support-Bothelp",
                         },
                         {
@@ -51,16 +51,16 @@ module.exports = {
             );
 
         return client.embed({
-            title: `❓| Help Panel`,
+            title: `<:que:1065895762682187906>| Help Panel`,
             desc: `Welcome to Bot's help panel! We have made a small overview to help you! Make a choice via the menu below`,
-            image: "https://share.creavite.co/zqLgHVmIUsmDqFJM.gif",
+            image: "https://share.creavite.co/WYMlziHH45dOwEb3.gif",
             fields: [
                 {
-                    name: `❌┆Menu doesn't work?`,
+                    name: `<:kross:1065897195406110750>┆Menu doesn't work?`,
                     value: `Try resending the command. If you get no reaction, make sure you report the bug!`
                 },
                 {
-                    name: `🪲┆Found a bug?`,
+                    name: `<:bugs:1065897707937464331>┆Found a bug?`,
                     value: `Report this with </report:1063488530690609238>`
                 },
             ],

@@ -48,7 +48,7 @@ module.exports = {
                         image: `https://media.discordapp.net/attachments/937337957419999272/937338297036967946/techpoint_channel_banner_about.jpg?width=812&height=221`
                     }, interaction.channel).then(() => {
                         client.embed({
-                            title: `ℹ️・Information`,
+                            title: `<:inf:1065937666476097596>・Information`,
                             author: {
                                 name: "TechPoint",
                                 iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
@@ -60,11 +60,11 @@ module.exports = {
                                     value: `Welcome to your support server! We focus on our bots Bot & Bot 2. Stay up to date, ask your questions and test out our bots.`,
                                 },
                                 {
-                                    name: `❓┆What can I do here?`,
+                                    name: `<:que:1065895762682187906>┆What can I do here?`,
                                     value: `- Read the latest bot news\n- Test bot commands\n- Ask questions\n- Get help with setting up the bot in your server`,
                                 },
                                 {
-                                    name: `🤖┆What are Bot & Bot 2?`,
+                                    name: `<:bot:1065939763024101416>┆What are Bot & Bot 2?`,
                                     value: `You can find this information in the <#897221483460444170> channel.`,
                                 },
                                 {
@@ -192,7 +192,7 @@ module.exports = {
                         image: `https://media.discordapp.net/attachments/937337957419999272/938725908687233034/techpoint_channel_banner_helpdesk.jpg?width=812&height=221`
                     }, interaction.channel).then(() => {
                         client.embed({
-                            title: `🎫・Helpdesk`,
+                            title: `<:ticket_green:1065923338326790145>・Helpdesk`,
                             author: {
                                 name: "TechPoint",
                                 iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
@@ -201,7 +201,7 @@ module.exports = {
                             desc: `What could be more fun than working at the best bot/server? We regularly have spots for new positions that you can apply for \n\nBut... what can you expect?`,
                             fields: [
                                 {
-                                    name: `❓┆I have a question!`,
+                                    name: `<:que:1065895762682187906>┆I have a question!`,
                                     value: `We advise you to ask your question in <#937486956697370674> first. Here there are often already team members or other people who can help you. If it still doesn't work, create a ticket.`,
                                 },
                                 {
@@ -236,15 +236,15 @@ module.exports = {
                             desc: `Techpoint Network is a network that consists of 3 servers. Each server has its own function. One is for tech/coding/crypto and the other for support. We also have 1 extra server for ban appeals, read all information below`,
                             fields: [
                                 {
-                                    name: `💻┇TechPoint`,
+                                    name: `<:mob:1065939198441435167>┇TechPoint`,
                                     value: `This is a server that mainly focused on everything that revolves around tech. For example, think of encryption, crypt or all new gadgets. Meet new people or learn more about tech yourself!. You can join this server by clicking [this](https://discord.gg/bEJhVa6Ttv) link`,
                                 },
                                 {
-                                    name: `🤖┇Bot Support`,
+                                    name: `<:bot:1065939763024101416>┇Bot Support`,
                                     value: `This is the server you are currently on. All information about this server can be found in. You can get the link from this server to click on [this](https://discord.gg/GqhD6RNbzs) link`,
                                 },
                                 {
-                                    name: `🔨┇TechPoint Ban Appeal`,
+                                    name: `<:hamtoo:1065922792182255628>┇TechPoint Ban Appeal`,
                                     value: `This server is for the people who are banned from a server or from the bots. You can create a ticket here to request an unban and to participate in the servers again or to be able to use the bots again. You can join this server by clicking [this](https://discord.gg/q9jZrDk9n6) link`,
                                 },
                             ],
@@ -271,19 +271,19 @@ module.exports = {
                             desc: `Outside of a community we also maintain 2 public bots. These bots are all made to make your server better!`,
                             fields: [
                                 {
-                                    name: `🤖┆What is Bot?`,
+                                    name: `<:bot:1065939763024101416>┆What is Bot?`,
                                     value: `Bot is a bot with which you can run your entire server! With no less than 400+ commands, we have a large bot with many options to improve your server and the best part is that it is completely in slash commands! You know what else is beautiful? All of this is **FREE** to use!`,
                                 },
                                 {
-                                    name: `🎶┆What is Bot 2?`,
+                                    name: `<:mus:1065931575553957948>┆What is Bot 2?`,
                                     value: `Bot 2 was created for additional music. This way you never get in each other's way when someone is already listening to music. Furthermore, this bot contains a soundboard and a radio system and the best part is that it is completely in slash commands!`,
                                 },
                                 {
-                                    name: `📨┆How do I invite the bots?`,
+                                    name: `<:env:1065928694805303356>┆How do I invite the bots?`,
                                     value: `You can invite the bots by doing \`/invite\` or by clicking on the links below\n\n**Bot Invite** - [Invite Here](https://discord.com/oauth2/authorize?&client_id=798144456528363550&scope=applications.commands+bot&permissions=8)\n**Bot 2 Invite** - [Invite Here](${client.config.discord.botInvite})`,
                                 },
                                 {
-                                    name: `🎫┆How do I get help when needed?`,
+                                    name: `<:ticket_green:1065923338326790145>┆How do I get help when needed?`,
                                     value: `You can ask your questions in the general chat or for further information you can take a look in <#897213893624102965>.`,
                                 },
                             ],
@@ -385,7 +385,7 @@ module.exports = {
                         image: `https://media.discordapp.net/attachments/937337957419999272/938725907097604116/techpoint_channel_banner_beta.jpg?width=813&height=221`
                     }, interaction.channel).then(() => {
                         client.embed({
-                            title: `🐞・Béta`,
+                            title: `<:bugs:1065897707937464331>・Béta`,
                             author: {
                                 name: "TechPoint",
                                 iconURL: "https://media.discordapp.net/attachments/937337957419999272/937797574440681472/techpoint_logo-min.jpg?width=812&height=812"
@@ -398,7 +398,7 @@ module.exports = {
                                     value: `- Minimum 50 members in the server \n- No test servers \n- Following the Discord and Bot TOS \n- Active server`,
                                 },
                                 {
-                                    name: `❓┆How does it work?`,
+                                    name: `<:que:1065895762682187906>┆How does it work?`,
                                     value: `You are going to use a beta bot. This does mean that the bot does not work 100% on some points. Keep this in mind when you sign up!`,
                                 },
                                 {

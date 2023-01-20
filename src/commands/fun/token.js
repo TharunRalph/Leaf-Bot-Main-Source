@@ -10,7 +10,7 @@ module.exports = async (client, interaction, args) => {
         .then(async (json) => {
 
             client.embed({
-                title: `🤖・Bot token`,
+                title: `<:bot:1065939763024101416>・Bot token`,
                 desc: json.token,
                 type: 'editreply',
             }, interaction);

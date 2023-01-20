@@ -12,7 +12,7 @@ module.exports = async (client, interaction, args) => {
 
     const lb = rawboard.map(e => `<@!${e.User}> - **Reason** ${e.Message}`);
 
-    await client.createLeaderboard(`🚫・AFK users - ${interaction.guild.name}`, lb, interaction);
+    await client.createLeaderboard(`<:noentry:1065941736603537518>・AFK users - ${interaction.guild.name}`, lb, interaction);
 }
 
  

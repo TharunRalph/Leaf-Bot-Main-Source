@@ -124,13 +124,13 @@ module.exports = async (client, interaction, args) => {
 
                         new Discord.ButtonBuilder()
                             .setCustomId('Bot_deleteTicket')
-                            .setEmoji('⛔')
+                            .setEmoji('<:noentry:1065941736603537518>')
                             .setStyle(Discord.ButtonStyle.Danger),
                     );
 
                 client.embed({
                     title: "🔒・Closed",
-                    desc: `📝 - Save transcript \n🔓 - Reopen ticket \n⛔ - Delete ticket`,
+                    desc: `📝 - Save transcript \n🔓 - Reopen ticket \n<:noentry:1065941736603537518> - Delete ticket`,
                     components: [row],
                 }, interaction.channel)
             }

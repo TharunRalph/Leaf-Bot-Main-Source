@@ -21,7 +21,7 @@ module.exports = async (client, interaction, args) => {
             client.succNormal({
                 text: "Added your song",
                 fields: [{
-                    name: "🎶┆Song",
+                    name: "<:mus:1065931575553957948>┆Song",
                     value: `\`\`\`${song}\`\`\``,
                     inline: true,
                 }],

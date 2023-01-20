@@ -13,7 +13,7 @@ module.exports = async (client, interaction, args) => {
         inline: true
       },
       {
-        name: `🤖┆Bots`,
+        name: `<:bot:1065939763024101416>┆Bots`,
         value: `${members.filter(member => member.user.bot).size} bots`,
         inline: true
       },

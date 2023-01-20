@@ -12,7 +12,7 @@ module.exports = async (client, interaction, args) => {
 
   member.roles.remove(member.roles.highest.id).then(r => {
     client.embed({
-      title: `🔨・Demote`,
+      title: `<:hamtoo:1065922792182255628>・Demote`,
       desc: `You've been demoted from **${interaction.guild.name}**`,
       fields: [
         {

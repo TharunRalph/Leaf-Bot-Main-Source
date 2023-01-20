@@ -5,7 +5,7 @@ module.exports = async (client, user, mod) => {
     if (!logsChannel) return;
 
     client.embed({
-        title: `🔨・Member unwarned`,
+        title: `<:hamtoo:1065922792182255628>・Member unwarned`,
         desc: `A user has been unwarned`,
         fields: [
             {

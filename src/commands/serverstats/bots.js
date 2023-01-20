@@ -6,7 +6,7 @@ module.exports = async (client, interaction, args) => {
     const members = await interaction.guild.members.fetch();
 
     var channelName = await client.getTemplate(interaction.guild);
-    channelName = channelName.replace(`{emoji}`, "🤖")
+    channelName = channelName.replace(`{emoji}`, "<:bot:1065939763024101416>")
     channelName = channelName.replace(`{name}`, `Bots: ${members.filter(member => member.user.bot).size || 0}`)
 
     await interaction.guild.channels.create({

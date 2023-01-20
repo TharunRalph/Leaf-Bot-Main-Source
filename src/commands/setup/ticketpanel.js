@@ -13,7 +13,7 @@ module.exports = async (client, interaction, args) => {
                 .setCustomId('Bot_openticket')
                 .setLabel(name)
                 .setStyle(Discord.ButtonStyle.Primary)
-                .setEmoji('🎫')
+                .setEmoji('<:ticket_green:1065923338326790145>')
 
             const row = new Discord.ActionRowBuilder()
                 .addComponents(button)

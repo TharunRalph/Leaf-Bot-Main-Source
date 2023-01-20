@@ -33,7 +33,7 @@ module.exports = async (client, interaction, args) => {
                 inline: false
             },
             {
-                name: `🤖┆Bot Answer`,
+                name: `<:bot:1065939763024101416>┆Bot Answer`,
                 value: `\`\`\`${antwoorden[resultaat]}\`\`\``,
                 inline: false
             }

@@ -94,7 +94,7 @@ module.exports = {
         })
 
         client.embed({
-            title: `🔨・Warn`,
+            title: `<:hamtoo:1065922792182255628>・Warn`,
             desc: `You've been warned in **${interaction.guild.name}**`,
             fields: [
                 {

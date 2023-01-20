@@ -116,7 +116,7 @@ module.exports = async (client, interaction, args) => {
                                     parent: category.id
                                 }).then(async channel => {
                                     client.embed({
-                                        title: `⚙️・System`,
+                                        title: `<:gear_g:1065914595144892546>・System`,
                                         desc: `Ticket has been created`,
                                         fields: [
                                             {

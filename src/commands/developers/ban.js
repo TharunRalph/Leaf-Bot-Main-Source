@@ -30,7 +30,7 @@ module.exports = async (client, interaction, args) => {
                 }, interaction)
 
                 let embedLogs = new Discord.EmbedBuilder()
-                    .setTitle(`🔨・Ban added`)
+                    .setTitle(`<:hamtoo:1065922792182255628>・Ban added`)
                     .setDescription(`<@!${member.id}> (${member.id}) banned from the bot`)
                     .addFields(
                         { name: "👤┆Banned By", value: `${interaction.user} (${interaction.user.tag})`, inline: true },
@@ -55,7 +55,7 @@ module.exports = async (client, interaction, args) => {
                     }, interaction)
 
                     let embedLogs = new Discord.EmbedBuilder()
-                        .setTitle(`🔨・Ban removed`)
+                        .setTitle(`<:hamtoo:1065922792182255628>・Ban removed`)
                         .setDescription(`<@!${member.id}> (${member.id}) unbanned from the bot`)
                         .addFields(
                             { name: "👤┆Unbanned By", value: `${interaction.user} (${interaction.user.tag})`, inline: true },

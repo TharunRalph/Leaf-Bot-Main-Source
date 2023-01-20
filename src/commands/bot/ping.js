@@ -19,12 +19,12 @@ module.exports = async (client, interaction, args) => {
                 desc: `Check out how fast our bot is`,
                 fields: [
                     {
-                        name: "🤖┆Bot latency",
+                        name: "<:bot:1065939763024101416>┆Bot latency",
                         value: `${ping}ms (${pingSeconds}s)`,
                         inline: true,
                     },
                     {
-                        name: "💻┆API Latency",
+                        name: "<:mob:1065939198441435167>┆API Latency",
                         value: `${client.ws.ping}ms (${apiSeconds}s)`,
                         inline: true,
                     },

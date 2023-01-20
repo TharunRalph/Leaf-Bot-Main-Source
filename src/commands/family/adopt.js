@@ -45,7 +45,7 @@ module.exports = async (client, interaction, args) => {
 
             new Discord.ButtonBuilder()
                 .setCustomId('adopt_deny')
-                .setEmoji('❌')
+                .setEmoji('<:kross:1065897195406110750>')
                 .setStyle(Discord.ButtonStyle.Danger),
         );
 
@@ -92,7 +92,7 @@ module.exports = async (client, interaction, args) => {
 
             client.embed({
                 title: `👪・Adoption - Approved`,
-                desc: `${author} is now the proud parent of ${target}! 🎉`,
+                desc: `${author} is now the proud parent of ${target}! <:giveaway:1065918316138483722>`,
                 components: [],
                 type: 'editreply'
             }, interaction);

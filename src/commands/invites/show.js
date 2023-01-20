@@ -8,7 +8,7 @@ module.exports = async (client, interaction, args) => {
     Schema.findOne({ Guild: interaction.guild.id, User: user.id }, async (err, data) => {
         if (data) {
             client.embed({
-                title: "📨・Invites",
+                title: "<:env:1065928694805303356>・Invites",
                 desc: `**${user.tag}** has \`${data.Invites}\` invites`,
                 fields: [
                     {
@@ -27,7 +27,7 @@ module.exports = async (client, interaction, args) => {
         }
         else {
             client.embed({
-                title: "📨・Invites",
+                title: "<:env:1065928694805303356>・Invites",
                 desc: `**${user.tag}** has \`0\` invites`,
                 fields: [
                     {

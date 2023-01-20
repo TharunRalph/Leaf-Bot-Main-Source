@@ -145,7 +145,7 @@ module.exports = async (client, interaction, args) => {
             .setCustomId(id1)
             .setDisabled(true);
         w = new Discord.ButtonBuilder()
-            .setEmoji("⬆️")
+            .setEmoji("<:up_up:1065945878495494149>")
             .setStyle(Discord.ButtonStyle.Primary)
             .setCustomId(id2);
         lock2 = new Discord.ButtonBuilder()
@@ -158,7 +158,7 @@ module.exports = async (client, interaction, args) => {
             .setStyle(Discord.ButtonStyle.Primary)
             .setCustomId(id3);
         s = new Discord.ButtonBuilder()
-            .setEmoji("⬇️")
+            .setEmoji("<:down:1065945911299166300>")
             .setStyle(Discord.ButtonStyle.Primary)
             .setCustomId(id4);
         d = new Discord.ButtonBuilder()
@@ -201,7 +201,7 @@ module.exports = async (client, interaction, args) => {
             .setCustomId(id1)
             .setDisabled(true);
         w = new Discord.ButtonBuilder()
-            .setEmoji("⬆️")
+            .setEmoji("<:up_up:1065945878495494149>")
             .setStyle(Discord.ButtonStyle.Primary)
             .setCustomId(id2)
             .setDisabled(true);
@@ -216,7 +216,7 @@ module.exports = async (client, interaction, args) => {
             .setCustomId(id3)
             .setDisabled(true);
         s = new Discord.ButtonBuilder()
-            .setEmoji("⬇️")
+            .setEmoji("<:down:1065945911299166300>")
             .setStyle(Discord.ButtonStyle.Primary)
             .setCustomId(id4)
             .setDisabled(true);
@@ -261,7 +261,7 @@ module.exports = async (client, interaction, args) => {
         .setCustomId(id1)
         .setDisabled(true);
     w = new Discord.ButtonBuilder()
-        .setEmoji("⬆️")
+        .setEmoji("<:up_up:1065945878495494149>")
         .setStyle(Discord.ButtonStyle.Primary)
         .setCustomId(id2);
     lock2 = new Discord.ButtonBuilder()
@@ -274,7 +274,7 @@ module.exports = async (client, interaction, args) => {
         .setStyle(Discord.ButtonStyle.Primary)
         .setCustomId(id3);
     s = new Discord.ButtonBuilder()
-        .setEmoji("⬇️")
+        .setEmoji("<:down:1065945911299166300>")
         .setStyle(Discord.ButtonStyle.Primary)
         .setCustomId(id4);
     d = new Discord.ButtonBuilder()

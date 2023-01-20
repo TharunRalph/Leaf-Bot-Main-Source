@@ -35,7 +35,7 @@ module.exports = async (client, interaction, args) => {
     })
 
     client.embed({
-        title: `🔨・Unwarn`,
+        title: `<:hamtoo:1065922792182255628>・Unwarn`,
         desc: `You've been unwarned in **${interaction.guild.name}**`,
         fields: [
             {

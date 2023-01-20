@@ -39,10 +39,10 @@ module.exports = {
         }
 
         const flags = {
-            ActiveDeveloper: "👨‍💻・Active Developer",
-            BugHunterLevel1: "🐛・Discord Bug Hunter",
-            BugHunterLevel2: "🐛・Discord Bug Hunter",
-            CertifiedModerator: "👮‍♂️・Certified Moderator",
+            ActiveDeveloper: "👨‍<:mob:1065939198441435167>・Active Developer",
+            BugHunterLevel1: "<:bugs:1065897707937464331>・Discord Bug Hunter",
+            BugHunterLevel2: "<:bugs:1065897707937464331>・Discord Bug Hunter",
+            CertifiedModerator: "<:mod:1065940560411627520>・Certified Moderator",
             HypeSquadOnlineHouse1: "🏠・House Bravery Member",
             HypeSquadOnlineHouse2: "🏠・House Brilliance Member",
             HypeSquadOnlineHouse3: "🏠・House Balance Member",
@@ -53,8 +53,8 @@ module.exports = {
             Spammer: "🔒・Spammer", // Not sure if this one works
             Staff: "👨‍💼・Discord Staff",
             TeamPseudoUser: "👨‍💼・Discord Team",
-            VerifiedBot: "🤖・Verified Bot",
-            VerifiedDeveloper: "👨‍💻・(early)Verified Bot Developer",
+            VerifiedBot: "<:bot:1065939763024101416>・Verified Bot",
+            VerifiedDeveloper: "👨‍<:mob:1065939198441435167>・(early)Verified Bot Developer",
         }
 
 
@@ -129,7 +129,7 @@ module.exports = {
                         inline: true
                     },
                     {
-                        name: "🎶┆Favorite songs",
+                        name: "<:mus:1065931575553957948>┆Favorite songs",
                         value: `${data.Songs.join(', ') || 'Not set'}`,
                         inline: true
                     },
@@ -174,7 +174,7 @@ module.exports = {
                         inline: true
                     },
                     {
-                        name: "ℹ️┆About me",
+                        name: "<:inf:1065937666476097596>┆About me",
                         value: `${data.Aboutme || 'Not set'}`,
                         inline: false
                     },], type: 'editreply'

@@ -12,24 +12,24 @@ module.exports = async (client) => {
                     .addComponents( 
                         new Discord.StringSelectMenuBuilder()
                             .setCustomId('Bot-helppanel')
-                            .setPlaceholder('❌┆Nothing selected')
+                            .setPlaceholder('Nothing selected')
                             .addOptions([
                                 {
                                     label: `Commands`,
                                     description: `Show the commands of ${client.user.username}!`,
-                                    emoji: "💻",
+                                    emoji: "<:mob:1065939198441435167>",
                                     value: "commands-Bothelp",
                                 },
                                 {
                                     label: `Invite`,
                                     description: `Invite ${client.user.username} to your server`,
-                                    emoji: "📨",
+                                    emoji: "<:env:1065928694805303356>",
                                     value: "invite-Bothelp",
                                 },
                                 {
                                     label: `Support server`,
                                     description: `Join the suppport server`,
-                                    emoji: "❓",
+                                    emoji: "<:que:1065895762682187906>",
                                     value: "support-Bothelp",
                                 },
                                 {
@@ -55,9 +55,9 @@ module.exports = async (client) => {
                     );
 
                 client.embed({
-                    title: `📨・Invite`,
+                    title: `<:env:1065928694805303356>・Invite`,
                     desc: `Make your server even better with the ${client.user.username} bot!`,
-                    image: "https://share.creavite.co/zqLgHVmIUsmDqFJM.gif",
+                    image: "https://share.creavite.co/WYMlziHH45dOwEb3.gif",
                     url: client.config.discord.botInvite,
                     components: [row2, row],
                     type: 'edit'

@@ -12,7 +12,7 @@ module.exports = async (client, interaction, args) => {
 
     const lb = rawLeaderboard.map(e => `**${rawLeaderboard.findIndex(i => i.Guild === interaction.guild.id && i.User === e.User) + 1}** | <@!${e.User}> - Invites: \`${e.Invites}\``);
 
-    await client.createLeaderboard(`📨・Invites - ${interaction.guild.name}`, lb, interaction);
+    await client.createLeaderboard(`<:env:1065928694805303356>・Invites - ${interaction.guild.name}`, lb, interaction);
 }
 
  

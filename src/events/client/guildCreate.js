@@ -65,9 +65,9 @@ module.exports = async (client, guild) => {
 
         client.embed({
             title: "Thanks for inviting the bot!",
-            image: "https://share.creavite.co/zqLgHVmIUsmDqFJM.gif",
+            image: "https://share.creavite.co/WYMlziHH45dOwEb3.gif",
             fields: [{
-                name: "❓┆How to setup?",
+                name: "<:que:1065895762682187906>┆How to setup?",
                 value: 'The default prefix = \`/\` \nTo run setups with Bot run \`/setup\`',
                 inline: false,
             },
@@ -77,12 +77,12 @@ module.exports = async (client, guild) => {
                 inline: false,
             },
             {
-                name: "💻┆What are the commands?",
+                name: "<:mob:1065939198441435167>┆What are the commands?",
                 value: 'See that list of commands by doing </help:1063488530338304048>',
                 inline: false,
             },
             {
-                name: "📨┆Invite the bot!",
+                name: "<:env:1065928694805303356>┆Invite the bot!",
                 value: `Invite the bot to click [[HERE]](${client.config.discord.botInvite})`,
                 inline: false,
             },

@@ -86,7 +86,7 @@ module.exports = (client, oldState, newState) => {
                     }
 
                     let channelName = data.ChannelName;
-                    channelName = channelName.replace(`{emoji}`, "🔊")
+                    channelName = channelName.replace(`{emoji}`, "<:sound_green:1065923813268799498>")
                     channelName = channelName.replace(`{channel name}`, `Voice ${data.ChannelCount}`)
                     channelName = channelName.replace(`{channel count}`, `${data.ChannelCount}`)
                     channelName = channelName.replace(`{member}`, `${user.username}`)

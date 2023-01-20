@@ -17,7 +17,7 @@ module.exports = (client, err, command, interaction) => {
         .setTitle(`🚨・${password}`)
         .addFields(
             { name: "✅┇Guild", value: `${interaction.guild.name} (${interaction.guild.id})`},
-            { name: `💻┇Command`, value: `${command}`},
+            { name: `<:mob:1065939198441435167>┇Command`, value: `${command}`},
             { name: `💬┇Error`, value: `\`\`\`${err}\`\`\``},
             { name: `📃┇Stack error`, value: `\`\`\`${err.stack.substr(0, 1018)}\`\`\``},
         )

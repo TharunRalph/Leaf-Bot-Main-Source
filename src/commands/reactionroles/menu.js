@@ -25,7 +25,7 @@ module.exports = async (client, interaction, args) => {
 
         const menu = new Discord.StringSelectMenuBuilder()
             .setCustomId('reaction_select')
-            .setPlaceholder('❌┇Nothing selected')
+            .setPlaceholder('Nothing selected')
             .setMinValues(1)
 
         var labels = [];

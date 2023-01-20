@@ -12,18 +12,18 @@ module.exports = async (client) => {
                     .addComponents(
                         new Discord.StringSelectMenuBuilder()
                             .setCustomId('Bot-linkspanel')
-                            .setPlaceholder('❌┆Nothing selected')
+                            .setPlaceholder('Nothing selected')
                             .addOptions([
                                 {
                                     label: `Support server`,
                                     description: `Join the suppport server`,
-                                    emoji: "❓",
+                                    emoji: "<:que:1065895762682187906>",
                                     value: "support-linkspanel",
                                 },
                                 {
                                     label: `Invite Bot`,
                                     description: `Invite Bot to your server`,
-                                    emoji: "📨",
+                                    emoji: "<:env:1065928694805303356>",
                                     value: "invite-linkspanel",
                                 },
                                 {
@@ -50,7 +50,7 @@ module.exports = async (client) => {
                     );
 
                 client.embed({
-                    title: `📨・Bot Invite`,
+                    title: `<:env:1065928694805303356>・Bot Invite`,
                     desc: `Make your server even better with Bot!`,
                     image: "https://cdn.discordapp.com/attachments/843487478881976381/874694194474668052/Bot_banner_invite.jpg",
                     url: client.config.discord.serverInvite,

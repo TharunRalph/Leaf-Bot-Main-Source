@@ -5,7 +5,7 @@ module.exports = async (client, interaction, args) => {
     const channel = interaction.options.getChannel('channel');
 
     client.embed({ 
-        title: `📢・Announcement!`, 
+        title: `<:announce:1065916849486823445>・Announcement!`, 
         desc: message 
     }, channel);
 

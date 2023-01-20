@@ -32,7 +32,7 @@ module.exports = async (client, interaction, args) => {
         }, interaction);
 
         let embedLogs = new Discord.EmbedBuilder()
-            .setTitle(`🪙・Credits added`)
+            .setTitle(`<:moni:1065921471374966865>・Credits added`)
             .setDescription(`Added credits to ${user} (${user.id})`)
             .addFields(
                 { name: "👤┆Added By", value: `${interaction.user} (${interaction.user.tag})`, inline: true },
@@ -59,7 +59,7 @@ module.exports = async (client, interaction, args) => {
         }, interaction);
 
         let embedLogs = new Discord.EmbedBuilder()
-            .setTitle(`🪙・Credits removed`)
+            .setTitle(`<:moni:1065921471374966865>・Credits removed`)
             .setDescription(`Removed credits from ${user} (${user.id})`)
             .addFields(
                 { name: "👤┆Removed By", value: `${interaction.user} (${interaction.user.tag})`, inline: true },

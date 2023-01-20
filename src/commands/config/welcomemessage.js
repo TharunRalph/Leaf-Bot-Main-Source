@@ -14,7 +14,7 @@ module.exports = async (client, interaction, args) => {
 
     if (message.toUpperCase() == "HELP") {
         return client.embed({
-            title: `ℹ️・Welcome message options`,
+            title: `<:inf:1065937666476097596>・Welcome message options`,
             desc: `Join message options: \n
             \`{user:username}\` - User's username
             \`{user:discriminator}\` - User's discriminator

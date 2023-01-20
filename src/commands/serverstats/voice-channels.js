@@ -4,7 +4,7 @@ const Schema = require("../../database/models/stats");
 
 module.exports = async (client, interaction, args) => {
     var channelName = await client.getTemplate(interaction.guild);
-    channelName = channelName.replace(`{emoji}`, "🔊")
+    channelName = channelName.replace(`{emoji}`, "<:sound_green:1065923813268799498>")
     channelName = channelName.replace(`{name}`, `Voice Channels: ${interaction.guild.channels.cache.filter(channel => channel.type ===  Discord.ChannelType.GuildVoice).size || 0}`)
 
     await interaction.guild.channels.create({

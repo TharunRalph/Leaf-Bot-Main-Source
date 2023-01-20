@@ -27,7 +27,7 @@ module.exports = async (client, interaction, args) => {
 
         if (outputResponse.length <= 1024) {
             await client.embed({
-                title: `💻・Eval`,
+                title: `<:mob:1065939198441435167>・Eval`,
                 fields: [
                     {
                         name: "📥┇Input",
@@ -73,7 +73,7 @@ module.exports = async (client, interaction, args) => {
     catch (err) {
 
         return client.embed({
-            title: `💻・Eval`,
+            title: `<:mob:1065939198441435167>・Eval`,
             fields: [
                 {
                     name: "📥┇Input",

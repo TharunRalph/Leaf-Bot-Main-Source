@@ -79,7 +79,7 @@ async function handleSubscription(interaction, player, client) {
     player.process(player.queue);
 
     client.embed({
-        title: `🎶・Music Quiz`,
+        title: `<:mus:1065931575553957948>・Music Quiz`,
         desc: `Get ready! Vote skip the song by entering the word 'skip'. Good luck! \n\n**Songs in queue:** ${queue.length} \n**Time to play:** 30 seconds`,
         type: 'editreply'
     }, interaction);

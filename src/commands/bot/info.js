@@ -22,25 +22,25 @@ module.exports = async (client, interaction, args) => {
                 title: `ℹ・Bot information`,
                 desc: `____________________________`,
                 thumbnail: client.user.avatarURL({ size: 1024 }),
-                image: "https://share.creavite.co/zqLgHVmIUsmDqFJM.gif",
+                image: "https://share.creavite.co/WYMlziHH45dOwEb3.gif",
                 fields: [
                {
-                    name: "ℹ️ | Information",
+                    name: "<:inf:1065937666476097596> | Information",
                     value: `I Am A Bot With More Then 300+ Commands Which Is To Make A Whole Server With One Bot!`,
                     inline: false,
                 },
                 {
-                    name: "❓| About Me",
+                    name: "<:que:1065895762682187906>| About Me",
                     value: `I Am A Bot Designed By <@981063126604730388>`,
                     inline: false,
                 },
                 {
-                    name: "🤖| Wanna Add Me",
+                    name: "<:bot:1065939763024101416>| Wanna Add Me",
                     value: `Add Me: [[ADD ME]](${client.config.discord.botInvite})`,
                     inline: true,
                 },
                 {
-                    name: "❓| Support Server",
+                    name: "<:que:1065895762682187906>| Support Server",
                     value: `Join Now: [[SUPPORT SERVER]](${client.config.discord.serverInvite})`,
                     inline: true,
                 }

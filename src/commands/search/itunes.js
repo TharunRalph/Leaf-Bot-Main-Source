@@ -13,7 +13,7 @@ module.exports = async (client, interaction, args) => {
     });
 
     client.embed({
-        title: `🎶・${r.name}`,
+        title: `<:mus:1065931575553957948>・${r.name}`,
         thumbnail: r.thumbnail,
         url: r.url,
         fields: [
@@ -43,7 +43,7 @@ module.exports = async (client, interaction, args) => {
                 inline: true,
             },
             {
-                name: "💵┇Price",
+                name: "<:moni:1065921471374966865>┇Price",
                 value: `${r.price}`,
                 inline: true,
             },

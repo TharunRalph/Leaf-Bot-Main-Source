@@ -10,9 +10,9 @@ module.exports = async (client, interaction, args) => {
         );
 
     client.embed({
-        title: `❓・Support`,
+        title: `<:que:1065895762682187906>・Support`,
         desc: `Make your server even better with Bot!`,
-        image: "https://share.creavite.co/zqLgHVmIUsmDqFJM.gif",
+        image: "https://share.creavite.co/WYMlziHH45dOwEb3.gif",
         url: client.config.discord.serverInvite,
         components: [row],
         type: 'editreply'

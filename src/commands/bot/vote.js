@@ -17,7 +17,7 @@ module.exports = async (client, interaction, args) => {
     dbl.hasVoted(interaction.user.id).then(voted => {
         if (voted) {
             client.embed({
-                title: `📨・Vote`,
+                title: `<:env:1065928694805303356>・Vote`,
                 desc: `You have voted!`,
                 image: `https://cdn.discordapp.com/attachments/843487478881976381/874694192755007509/Bot_banner_vote.jpg`,
                 color: client.config.colors.succes,
@@ -27,7 +27,7 @@ module.exports = async (client, interaction, args) => {
         }
         if (!voted) {
             client.embed({
-                title: `📨・Vote`,
+                title: `<:env:1065928694805303356>・Vote`,
                 desc: `You have not voted!`,
                 image: `https://cdn.discordapp.com/attachments/843487478881976381/874694192755007509/Bot_banner_vote.jpg`,
                 color: client.config.colors.error,

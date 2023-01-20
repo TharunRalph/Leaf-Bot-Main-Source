@@ -5,7 +5,7 @@ module.exports = async (client, interaction, args) => {
   const perms = role.permissions.toArray();
 
   client.embed({
-    title: `ℹ️・Role information`,
+    title: `<:inf:1065937666476097596>・Role information`,
     thumbnail: interaction.guild.iconURL({ dynamic: true, size: 1024 }),
     desc: `Information about the role ${role}`,
     fields: [

@@ -15,7 +15,7 @@ module.exports = async (client, interaction, args) => {
             });
 
             client.embed({
-                title: `❓・Anagram`,
+                title: `<:que:1065895762682187906>・Anagram`,
                 desc: `I formed a word with the given letters`,
                 fields: [
                     {

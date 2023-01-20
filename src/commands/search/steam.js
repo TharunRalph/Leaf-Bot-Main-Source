@@ -28,7 +28,7 @@ module.exports = async (client, interaction, args) => {
                 inline: false,
             },
             {
-                name: "💻┇Developers",
+                name: "<:mob:1065939198441435167>┇Developers",
                 value: `${s.developers.join(", ")}`,
                 inline: true,
             },
@@ -38,7 +38,7 @@ module.exports = async (client, interaction, args) => {
                 inline: true,
             },
             {
-                name: "🪙┇Price",
+                name: "<:moni:1065921471374966865>┇Price",
                 value: `${s.price}`,
                 inline: true,
             }

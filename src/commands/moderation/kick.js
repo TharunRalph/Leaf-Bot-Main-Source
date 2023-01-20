@@ -17,7 +17,7 @@ module.exports = async (client, interaction, args) => {
   }, interaction);
 
   client.embed({
-    title: `🔨・Kick`,
+    title: `<:hamtoo:1065922792182255628>・Kick`,
     desc: `You've been kicked in **${interaction.guild.name}**`,
     fields: [
       {

@@ -7,7 +7,7 @@ module.exports = async (client, guild) => {
         const members = await guild.members.fetch();
 
         var channelName = await client.getTemplate(guild);
-        channelName = channelName.replace(`{emoji}`, "🤖")
+        channelName = channelName.replace(`{emoji}`, "<:bot:1065939763024101416>")
         channelName = channelName.replace(`{name}`, `Bots: ${members.filter(member => member.user.bot).size || 0}`)
 
         const data = await Schema.findOne({ Guild: guild.id });

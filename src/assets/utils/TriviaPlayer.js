@@ -86,7 +86,7 @@ class TriviaPlayer {
                     if (this.wasTriviaEndCalled) return;
 
                     this.textChannel.client.embed({
-                        title: `🎶・Music Quiz - Results`,
+                        title: `<:mus:1065931575553957948>・Music Quiz - Results`,
                         desc: getLeaderBoard(Array.from(sortedScoreMap.entries())),
                         edit: true
                     }, this.textChannel)
@@ -188,7 +188,7 @@ class TriviaPlayer {
                         msg.react('☑');
                     } else {
                         // wrong answer
-                        return msg.react('❌');
+                        return msg.react('<:kross:1065897195406110750>');
                     }
                 });
 
@@ -215,7 +215,7 @@ class TriviaPlayer {
                     )}: ${capitalize_Words(this.queue[0].title)}`;
 
                     this.textChannel.client.embed({
-                        title: `🎶・Music Quiz`,
+                        title: `<:mus:1065931575553957948>・Music Quiz`,
                         desc: `The song was:  ${song} \n\n${getLeaderBoard(Array.from(sortedScoreMap.entries()))}`,
                         edit: true
                     }, this.textChannel)
@@ -252,7 +252,7 @@ class TriviaPlayer {
             console.log(err.message)
             if (err.message === 'FFmpeg/avconv not found!') {
                 this.textChannel.client.embed({
-                    title: `🎶・Music Quiz`,
+                    title: `<:mus:1065931575553957948>・Music Quiz`,
                     desc: `FFmpg/avconv not found!`,
                     edit: true
                 }, this.textChannel)

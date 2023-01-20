@@ -14,7 +14,7 @@ module.exports = async (client, interaction, args) => {
 
     if (message.toUpperCase() == "HELP") {
         return client.embed({
-            title: `ℹ️・Level message options`,
+            title: `<:inf:1065937666476097596>・Level message options`,
             desc: `These are the level message name options: \n
             \`{user:username}\` - User's username
             \`{user:discriminator}\` - User's discriminator

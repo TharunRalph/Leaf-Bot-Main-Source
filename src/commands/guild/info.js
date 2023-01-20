@@ -37,7 +37,7 @@ module.exports = async (client, interaction, args) => {
   const members = await interaction.guild.members.fetch();
 
   client.embed({
-    title: `ℹ️・Server Information`,
+    title: `<:inf:1065937666476097596>・Server Information`,
     desc: `Information about the server ${interaction.guild.name}`,
     thumbnail: interaction.guild.iconURL({ dynamic: true, size: 1024 }),
     image: interaction.guild.bannerURL({ size: 1024 }),

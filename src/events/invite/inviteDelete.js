@@ -5,7 +5,7 @@ module.exports = async (client, invite) => {
     if (!logsChannel) return;
 
     client.embed({
-        title: `📨・Invite deleted`,
+        title: `<:env:1065928694805303356>・Invite deleted`,
         desc: `A invite has been deleted`,
         fields: [
             {

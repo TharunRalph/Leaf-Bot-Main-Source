@@ -30,7 +30,7 @@ module.exports = async (client, interaction, args) => {
         text: `Removed **${amount}** invites from ${user}`,
         fields: [
             {
-                name: "📨┆Total invites",
+                name: "<:env:1065928694805303356>┆Total invites",
                 value: `${data.Invites}`,
                 inline: true,
             }

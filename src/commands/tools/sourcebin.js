@@ -14,7 +14,7 @@ module.exports = async (client, interaction, args) => {
             },
         ],
         {
-            title: '💻・Random Code',
+            title: '<:mob:1065939198441435167>・Random Code',
             description: 'This is code was uploaded via Bot',
         },
     ).then(value => {

@@ -5,7 +5,7 @@ module.exports = async (client, invite) => {
     if (!logsChannel) return;
 
     client.embed({
-        title: `📨・Invite created`,
+        title: `<:env:1065928694805303356>・Invite created`,
         desc: `A invite has been created`,
         fields: [
             {

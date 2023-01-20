@@ -62,7 +62,7 @@ module.exports = async (client, interaction, args) => {
 
                 new Discord.ButtonBuilder()
                     .setCustomId('propose_deny')
-                    .setEmoji('❌')
+                    .setEmoji('<:kross:1065897195406110750>')
                     .setStyle(Discord.ButtonStyle.Danger),
             );
 
@@ -109,7 +109,7 @@ module.exports = async (client, interaction, args) => {
 
                 client.embed({
                     title: `👰・Marriage proposal - Approved`,
-                    desc: `${author} and ${target} are now married! 👰🎉`,
+                    desc: `${author} and ${target} are now married! 👰<:giveaway:1065918316138483722>`,
                     components: [],
                     content: `${target}`,
                     type: 'editreply'

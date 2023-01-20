@@ -13,7 +13,7 @@ module.exports = async (client, interaction, args) => {
             image: `https://cdn.discordapp.com/attachments/843487478881976381/874742689017520128/Bot_banner_information.jpg`
         }, interaction.channel).then(() => {
             client.embed({
-                title: `ℹ️・Information`,
+                title: `<:inf:1065937666476097596>・Information`,
                 thumbnail: client.user.avatarURL({ size: 1024 }),
                 desc: `_____`,
                 fields: [
@@ -22,15 +22,15 @@ module.exports = async (client, interaction, args) => {
                         value: `Welcome to our hangout place! Meet new people here, play some games and participate in seasonal events! We are a server where we bring everyone together and we try to make it comfortable for everyone! Please be welcome and have some fun!`,
                     },
                     {
-                        name: `❓┆What can I do here?`,
+                        name: `<:que:1065895762682187906>┆What can I do here?`,
                         value: `- Meet new people! \n- Play many fun games! \n- Discover the seasons! \n- Participate in events! \nAnd…. Last but not least, choose your own roles at <#847867992044994561>!`,
                     },
                     {
-                        name: `🎫┆How do I get help when needed?`,
+                        name: `<:ticket_green:1065923338326790145>┆How do I get help when needed?`,
                         value: `You can make a ticket in <#820308164322656327>! We are happy to help you with your questions here and offer support in your server!`,
                     },
                     {
-                        name: `⚙️┆I want to help Bot Hangout to improve!`,
+                        name: `<:gear_g:1065914595144892546>┆I want to help Bot Hangout to improve!`,
                         value: `- Go to applications and see what kind of jobs are available! \n- Or make a ticket and ask if you can help with certain things! \n\n**We wish you a very nice and happy time here!**`,
                     }
                 ]
@@ -152,7 +152,7 @@ module.exports = async (client, interaction, args) => {
                         value: `Use stickers from other servers in our server`,
                     },
                     {
-                        name: `🔊┆Send TTS messages`,
+                        name: `<:sound_green:1065923813268799498>┆Send TTS messages`,
                         value: `Send messages that have a sound attached`,
                     },
                     {
@@ -168,7 +168,7 @@ module.exports = async (client, interaction, args) => {
                         value: `Create a thread in our text channels`,
                     },
                     {
-                        name: `🎉┆Private giveaways`,
+                        name: `<:giveaway:1065918316138483722>┆Private giveaways`,
                         value: `Get access to fun exclusive giveaways`,
                     },
                     {
@@ -188,7 +188,7 @@ module.exports = async (client, interaction, args) => {
                         value: `Stand out with a nice booster role and a booster badge!`,
                     },
                     {
-                        name: `💻┆Access to new bèta updates in Bot`,
+                        name: `<:mob:1065939198441435167>┆Access to new bèta updates in Bot`,
                         value: `We'll give your server access to updates that aren't out yet! How nice is that?`,
                     }
                 ]
@@ -229,7 +229,7 @@ module.exports = async (client, interaction, args) => {
                     value: `- 1 server vote | <@&833959913742794772>\n- 1 boost | <@&744208324022501447>\n- 1 donate | <@&849554599371210793>`,
                 },
                 {
-                    name: `💰┆Economy`,
+                    name: `<:mbag:1065919157490683904>┆Economy`,
                     value: `- $10.000 | <@&890720270086733854>\n- $15.000 | <@&833936202725720084>\n- $20.000 | <@&833936185167839232> \n- $25.000 | <@&928236333309255711> \n- $30.000 | <@&928235747100733450>`,
                 }
             ]
@@ -241,7 +241,7 @@ module.exports = async (client, interaction, args) => {
             image: `https://cdn.discordapp.com/attachments/843487478881976381/874742741224022016/Bot_banner_bot_info.jpg`
         }, interaction.channel).then(() => {
             client.embed({
-                title: `🤖・Our bots`,
+                title: `<:bot:1065939763024101416>・Our bots`,
                 thumbnail: client.user.avatarURL({ size: 1024 }),
                 desc: `_____ \n\nOutside of a community we also maintain 2 public bots. These bots are all made to make your server better!`,
                 fields: [
@@ -250,15 +250,15 @@ module.exports = async (client, interaction, args) => {
                         value: `Bot is a bot with which you can run your entire server! With no less than 400+ commands, we have a large bot with many options to improve your server! You know what else is beautiful? All of this is **FREE** to use!`,
                     },
                     {
-                        name: `🎶┆What is Bot 2?`,
+                        name: `<:mus:1065931575553957948>┆What is Bot 2?`,
                         value: `Bot 2 was created for additional music. This way you never get in each other's way when someone is already listening to music. Furthermore, this bot contains a soundboard and a radio system`,
                     },
                     {
-                        name: `📨┆How do I invite the bots?`,
+                        name: `<:env:1065928694805303356>┆How do I invite the bots?`,
                         value: `You can invite the bots by doing \`/invite\` or by clicking on the links below \n\n**Bot** - [Invite here](${client.config.discord.botInvite})`,
                     },
                     {
-                        name: `🎫┆How do I get help when needed?`,
+                        name: `<:ticket_green:1065923338326790145>┆How do I get help when needed?`,
                         value: `You can make a ticket in <#820308164322656327>! We are happy to help you with your questions here and offer support in your server!`,
                     }
                 ]

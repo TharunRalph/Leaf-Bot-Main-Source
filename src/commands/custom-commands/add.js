@@ -14,7 +14,7 @@ module.exports = async (client, interaction, args) => {
                 .addComponents(
                     new Discord.StringSelectMenuBuilder()
                         .setCustomId('customSelect')
-                        .setPlaceholder('❌┆Nothing selected')
+                        .setPlaceholder('Nothing selected')
                         .addOptions(
                             [
                                 {

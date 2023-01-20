@@ -27,7 +27,7 @@ module.exports = async (client, interaction, args) => {
     let channelTimestamp = (await toUnix(data.channel.id)).timestamp;
 
     return client.embed({
-      title: `📨・Invite information`,
+      title: `<:env:1065928694805303356>・Invite information`,
       thumbnail: `https://cdn.discordapp.com/icons/${data.guild.id}/${data.guild.icon}.png?size=1024`,
       image: `https://cdn.discordapp.com/banners/${data.guild.id}/${data.guild.banner}.png?size=1024`,
       fields: [

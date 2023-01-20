@@ -24,22 +24,22 @@ module.exports = async (client, interaction, args) => {
     let row = new Discord.ActionRowBuilder()
         .addComponents(
             new Discord.ButtonBuilder()
-                .setEmoji("⏮️")
+                .setEmoji("<:pre:1065935660575367168>")
                 .setCustomId("Bot-musicprev")
                 .setStyle(Discord.ButtonStyle.Primary),
 
             new Discord.ButtonBuilder()
-                .setEmoji("⏸️")
+                .setEmoji("<:pse:1065935758738857994>")
                 .setCustomId("Bot-musicpause")
                 .setStyle(Discord.ButtonStyle.Primary),
 
             new Discord.ButtonBuilder()
-                .setEmoji("⏹️")
+                .setEmoji("<:stp:1065935804800712724>")
                 .setCustomId("Bot-musicstop")
                 .setStyle(Discord.ButtonStyle.Primary),
 
             new Discord.ButtonBuilder()
-                .setEmoji("⏭️")
+                .setEmoji("<:nxt:1065935706029047830>")
                 .setCustomId("Bot-musicnext")
                 .setStyle(Discord.ButtonStyle.Primary),
         );

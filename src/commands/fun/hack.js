@@ -22,28 +22,28 @@ module.exports = async (client, interaction, args) => {
     }
 
     client.embed({
-        title: '💻・Hacking',
+        title: '<:mob:1065939198441435167>・Hacking',
         desc: `The hack on ${user} started...`,
         type: 'editreply'
     }, interaction).then(msg => {
 
         wait(140);
         client.embed({
-            title: '💻・Hacking',
+            title: '<:mob:1065939198441435167>・Hacking',
             desc: `Searching for user information..`,
             type: 'edit',
         }, msg).then(i => {
 
             wait(133);
             client.embed({
-                title: '💻・Hacking',
+                title: '<:mob:1065939198441435167>・Hacking',
                 desc: `Searching for IP address...`,
                 type: 'edit',
             }, msg).then(i => {
 
                 wait(140);
                 client.embed({
-                    title: '💻・Hacking',
+                    title: '<:mob:1065939198441435167>・Hacking',
                     desc: `The users ip address was found!`,
                     fields: [
                         {
@@ -57,18 +57,18 @@ module.exports = async (client, interaction, args) => {
 
                     wait(60);
                     client.embed({
-                        title: '💻・Hacking',
+                        title: '<:mob:1065939198441435167>・Hacking',
                         desc: `Searching for Discord login...`,
                         type: 'edit',
                     }, msg).then(i => {
 
                         wait(230);
                         client.embed({
-                            title: '💻・Hacking',
+                            title: '<:mob:1065939198441435167>・Hacking',
                             desc: `The users discord login was found!`,
                             fields: [
                                 {
-                                    name: '📨┆Email',
+                                    name: '<:env:1065928694805303356>┆Email',
                                     value: `\`\`\`${user.username}onDiscord@gmail.com\`\`\``
                                 },
                                 {
@@ -81,7 +81,7 @@ module.exports = async (client, interaction, args) => {
 
                             wait(200);
                             client.embed({
-                                title: '💻・Hacking',
+                                title: '<:mob:1065939198441435167>・Hacking',
                                 desc: `Search for Discord token...`,
                                 type: 'edit'
                             }, msg).then(i => {
@@ -89,7 +89,7 @@ module.exports = async (client, interaction, args) => {
                                 wait(200);
                                 fetch(`https://some-random-api.ml/bottoken?${user.id}`).then((res) => res.json()).catch({}).then(async (json) => {
                                     client.embed({
-                                        title: '💻・Hacking',
+                                        title: '<:mob:1065939198441435167>・Hacking',
                                         desc: `The users discord account token was found!`,
                                         fields: [
                                             {
@@ -103,7 +103,7 @@ module.exports = async (client, interaction, args) => {
 
                                         wait(140);
                                         client.embed({
-                                            title: '💻・Hacking',
+                                            title: '<:mob:1065939198441435167>・Hacking',
                                             desc: `Reporting account to Discord for breaking TOS...`,
                                             type: 'edit',
                                         }, msg).then(i => {
