@@ -108,11 +108,6 @@ module.exports = async (client) => {
             inline: true
         },
         {
-            name: `📒┆Notepad`,
-            value: `</notepad help:1063488530522841096>`,
-            inline: true
-        },
-        {
             name: `👤┆Profile`,
             value: `</profile help:1063488530522841097>`,
             inline: true
@@ -135,21 +130,6 @@ module.exports = async (client) => {
         {
             name: `⚙️┆Setup`,
             value: `</setup help:1063488530690609241>`,
-            inline: true
-        },
-        {
-            name: `🎛┆Soundboard`,
-            value: `</soundboard help:1063488530690609242>`,
-            inline: true
-        },
-        {
-            name: `🗨️┆Sticky messages`,
-            value: `</stickymessages help:1063488530690609243>`,
-            inline: true
-        },
-        {
-            name: `💡┆Suggestions`,
-            value: `</sugestions help:1063488530690609244>`,
             inline: true
         },
         {
