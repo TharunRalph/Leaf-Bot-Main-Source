@@ -36,7 +36,7 @@ module.exports = async (client) => {
     }
     const randomText = statuttext[Math.floor(Math.random() * statuttext.length)];
     client.user.setPresence({ activities: [{ name: randomText, type: Discord.ActivityType.Listening }], status: 'online' });
-  }, 20000)
+  }, 10000)
 
   client.player.init(client.user.id);
 }
